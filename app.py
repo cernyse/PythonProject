@@ -9,7 +9,7 @@ from visuals import plot_profit, plot_volatility, plot_returns
 st.title("Portfolio/Stock Analysis with Fama-French Factors")
 
 # get prices and tickers and calculate metrics
-csv_files = ["AAPL.csv", "MSFT.csv", "TSLA.csv", "GOOG.csv", "AMZN.csv", "META.csv", "NVDA.csv"]
+csv_files = ["AAPL.csv", "MSFT.csv", "TSLA.csv", "GOOG.csv", "AMZN.csv", "META.csv", "NVDA.csv", "SP500.csv"]
 prices = closing_prices(csv_files)
 tickers = prices.columns.tolist()
 
